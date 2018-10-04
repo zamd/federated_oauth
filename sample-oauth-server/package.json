@@ -1,0 +1,26 @@
+{
+  "name": "sample-oauth-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "Zulfiqar",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-ensure-login": "^0.1.1",
+    "debug": "^2.2.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "morgan": "^1.7.0",
+    "oauth2orize": "^1.2.2",
+    "oauth2orize-response-mode": "^0.1.1",
+    "oauth2orize-wmrm": "0.0.3",
+    "passport": "^0.3.2",
+    "passport-auth0": "^1.0.0"
+  }
+}
