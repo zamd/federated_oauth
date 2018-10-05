@@ -1,0 +1,27 @@
+{
+  "name": "federated_oauth",
+  "version": "1.0.0",
+  "description": "Basic oauth server to enable auth and checkSession using Same Origin. Also can enable long-lived session",
+  "main": "index.js",
+  "scripts": {
+    "build-server": "cd ./sample-oauth-server && npm install",
+    "build-client": "cd ./quickstart_app && npm install",
+    "build": "npm-run-all build-server build-client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zamd/federated_oauth.git"
+  },
+  "author": "zulfiqar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zamd/federated_oauth/issues"
+  },
+  "homepage": "https://github.com/zamd/federated_oauth#readme",
+  "dependencies": {
+    "sample-oauth-server": "file:sample-oauth-server"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
+  }
+}

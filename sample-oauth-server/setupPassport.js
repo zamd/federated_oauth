@@ -5,7 +5,7 @@ const passport = require('passport'),
 	const auth0 = new Auth0Startegy({
 		domain: "zulfiqar.auth0.com",
 		clientID: "KPIfeI5dfozGJDiNBkV1vsKYI1BNCv96",
-		clientSecret:"",
+		clientSecret:process.env.CLIENT_SECRET,
 		callbackURL: "https://xauth.io/login/callback",
 		scope: "openid email profile offline_access",
 		passReqToCallback: true
