@@ -1,5 +1,7 @@
 # federated_oauth
-Basic oauth server to enable auth and checkSession using Same Origin. Also can enable long-lived session 
+Basic Oauth server to enable `OAuth implicit authorization` and `Silent login (checkSession)` on the Same Origin. This helps mitigate ITP2 issues and can also enables long lived. The long-lived session is implemented by transalating `response_mode=web_message` to `grant_type=refresh_token`. 
+
+```This model has inherent flaw where it sends access_tokens issued to a confidential backend to the browser, which can results in "trust breach" if the Resource server is making authorization decisions based on client_type.  ```
 
 # Flow
 
