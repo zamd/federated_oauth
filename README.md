@@ -23,9 +23,10 @@ npm run build
 ```bash
 cd ./sample-oauth-server
 npm start
-
+```
 # Start client in a second window
 
+```bash
 cd ./quickstart_app
 npm start
 ```
