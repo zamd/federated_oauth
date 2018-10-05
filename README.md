@@ -47,8 +47,9 @@ http {
     }
   }
 }
-
 ```
+
+- Add mapping to you local domain `xauth.io: 127.0.0.1` in `/etc/hosts` file
 
 ## Start server
 
